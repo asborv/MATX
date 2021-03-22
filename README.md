@@ -18,4 +18,5 @@ Run `pip install -r requirements.txt` to install all packages needed.
 
 **Important notice:**
 When new packages are implemented, add them to `requirements.txt`, by running `pip freeze > requirements.txt` (Windows).
-Explanation found [here](https://stackoverflow.com/questions/6590688/is-it-bad-to-have-my-virtualenv-directory-inside-my-git-repositor)
+Explanation found [here](https://stackoverflow.com/questions/6590688/is-it-bad-to-have-my-virtualenv-directory-inside-my-git-repositor).
+Walkthrough of module setup in [this blog post](https://medium.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f).
