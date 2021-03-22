@@ -1,1 +1,7 @@
 env/ 
+.eggs/
+build/
+dist/
+matx.egg-info/
+**/__pycache__
+**/.pytest_cache
