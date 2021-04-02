@@ -21,17 +21,11 @@ def factors(n: int) -> list[int]:
   # Sieve of Eratosthenes
   # link https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
   while d <= max_d:
-    # print(f"{'Checking if {}|{}':-^40}".format(n, d))
     if not n % d:
-      factors.append(d)
-      # print(f"""
-      # {n} divides {d}.
-      # New n is: {n//d}.
-      # Factors are now: {factors}.
-      # """)
       n //= d
+      factors.append(d)
       continue
     else:
       d += 1
-  # print(f"Done checking because the divisor is {d}.")
+
   return factors if factors else [n]
