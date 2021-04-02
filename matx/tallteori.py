@@ -18,8 +18,6 @@ def factors(n: int) -> list[int]:
   d = 2
   max_d = n/2
 
-  # Sieve of Eratosthenes
-  # link https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
   while d <= max_d:
     if not n % d:
       n //= d
