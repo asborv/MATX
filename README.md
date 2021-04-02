@@ -27,7 +27,7 @@ Test files are located in the directory `tests`. In order to run tests, use comm
 
 ## Build
 
-When the library is ready for build, run `python setup.py bdist_wheel`. This creates a `.whl`-file in `/dist`.
+When the library is ready for build, run `python -m build` ([explanation](https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives)). This creates a `.whl`-file in `/dist`.
 
 ## Installation and importing
 
